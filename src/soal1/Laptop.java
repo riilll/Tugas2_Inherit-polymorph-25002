@@ -41,6 +41,6 @@ public class Laptop extends Perangkat {
 
     @Override 
     public String infoSingkat(){
-        return super.infoSingkat() + "RAM " + ramGb + "GB" + " layar "+ ukuranLayarInci+" inci"; 
+        return super.infoSingkat() + " | RAM " + ramGb + " GB" + " | layar "+ ukuranLayarInci+" inci"; 
     }
 }

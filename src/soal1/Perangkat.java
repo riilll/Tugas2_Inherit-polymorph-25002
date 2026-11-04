@@ -70,6 +70,6 @@ public class Perangkat {
      */
 
     public String infoSingkat(){
-        return merek + "(garansi "+garansiBulan + "bulan)";
+        return merek + " | garansi "+garansiBulan + " bulan";
     }
 }

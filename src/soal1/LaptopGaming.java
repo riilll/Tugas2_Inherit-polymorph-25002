@@ -30,6 +30,6 @@ public class LaptopGaming extends Laptop{
 
     @Override
     public String infoSingkat(){
-        return super.infoSingkat()+ "GPU" + kartuGrafis;
+        return super.infoSingkat()+ " | GPU " + kartuGrafis;
     }
 }

@@ -32,6 +32,6 @@ public class Ponsel extends Perangkat {
 
     @Override
     public String infoSingkat(){
-        return super.infoSingkat()+ kapasitasGb + " GB"+ jumlahKamera + "kamera";
+        return super.infoSingkat()+ " | "+ kapasitasGb + " GB"+ " | " + jumlahKamera + " kamera";
     }
 }
